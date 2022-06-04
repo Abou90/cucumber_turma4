@@ -43,8 +43,8 @@ public class LoginSteps {
     @E("possua um cadastro")
     public void possuaUmCadastro() {
         homePage.clicarRegistrar();
-        homePage.preencherEmail("teste@teste.com.br");
-        homePage.preencherNome("Flavio Dias");
+        homePage.preencherEmail("teste1@teste.com.br");
+        homePage.preencherNome("Flavio1 Dias");
         homePage.preencherSenha("123456");
         homePage.preencherConfirmacaoSenha("123456");
         homePage.clicarCriarComSaldo();
