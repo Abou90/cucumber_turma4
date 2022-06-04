@@ -1,5 +1,8 @@
 pipeline {
     agent any
+    environment {
+            PATH = "/usr/local/Cellar/maven/3.8.4/bin:$PATH"
+        }
     stages {
         stage('Testes Unitarios') {
             steps {
