@@ -1,6 +1,8 @@
 pipeline {
     agent any
-
+    environment {
+            PATH = "C:/ProgramData/chocolathey/lib/mavenapache-maven-3.8.4\bin:$PATH"
+        }
     stages {
         stage('Testes Unitarios') {
             steps {
